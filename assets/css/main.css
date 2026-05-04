@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "rak";
+  src: url("../fonts/ABCDiatypeArabicVariable.woff2");
+}
+* {
+  font-family: "rak";
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -45,6 +53,7 @@
   max-height: max-content;
   font-weight: 400 !important;
   font-size: 52px;
+  font-family: "rak";
 }
 
 .main {
@@ -84,6 +93,7 @@
   color: black;
   text-decoration: none !important;
   font-weight: 700;
+  font-family: "rak";
 }
 
 @media (max-width: 768px) {
